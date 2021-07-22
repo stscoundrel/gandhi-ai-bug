@@ -10,6 +10,8 @@
   "license": "MIT",  
   "scripts": {
     "build:c": "gcc -o 2038c C/src/main.c",
-    "run:c": "yarn build:c && ./2038c"
+    "build:c++": "g++ -o 2038cpp C++/src/main.cpp",
+    "run:c": "yarn build:c && ./2038c",
+    "run:c++": "yarn build:c++ && ./2038cpp"
   }
 }
