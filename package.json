@@ -1,0 +1,15 @@
+{
+  "name": "gandhi-ai-bug",
+  "version": "1.0.0",
+  "description": "Demonstration of Nuclear Gandhi AI bug",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stscoundrel/gandhi-ai-bug.git"
+  },
+  "author": "",
+  "license": "MIT",  
+  "scripts": {
+    "build:c": "gcc -o 2038c C/src/main.c",
+    "run:c": "yarn build:c && ./2038c"
+  }
+}
